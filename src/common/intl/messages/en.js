@@ -1,14 +1,10 @@
 export default {
   app: {
     footer: {
-      madeByHtml: 'made by <a href="https://twitter.com/steida">steida</a>'
+      madeByHtml: 'made by vikpelle'
     },
     links: {
-      firebase: 'Firebase',
-      home: 'Home',
-      login: 'Login',
-      me: 'Me',
-      todos: 'Todos'
+      home: 'Loan Calculator',
     }
   },
   auth: {
@@ -91,5 +87,8 @@ export default {
   },
   settings: {
     title: 'Settings'
-  }
+  },
+  loanCalc: {
+    title: 'Loan Calculator',
+  },
 };

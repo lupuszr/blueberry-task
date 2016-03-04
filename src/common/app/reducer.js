@@ -8,6 +8,7 @@ import intl from '../intl/reducer';
 import todos from '../todos/reducer';
 import ui from '../ui/reducer';
 import users from '../users/reducer';
+import loanCalc from '../loan-calc/reducer';
 
 const appReducer = combineReducers({
   auth,
@@ -17,7 +18,8 @@ const appReducer = combineReducers({
   routing,
   todos,
   ui,
-  users
+  users,
+  loanCalc
 });
 
 export default appReducer;
